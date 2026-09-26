@@ -4,15 +4,15 @@ A full-stack, multi-role platform for medication adherence monitoring, combining
 
 ## Why this project
 
-Medication non-adherence is a widespread problem in healthcare, especially for patients managing multiple prescriptions or relying on caregivers for support. MediTrack explores how low-cost IoT hardware and a role-based software platform can close that gap — giving patients a simple way to track doses, caregivers visibility into adherence patterns, and doctors a clinical view of patient compliance.
+Medication non-adherence is a widespread problem in healthcare, especially for patients managing multiple prescriptions or relying on caregivers for support. MediTrack explores how low-cost IoT hardware and a role-based software platform can close that gap - giving patients a simple way to track doses, caregivers visibility into adherence patterns, and doctors a clinical view of patient compliance.
 
 ## What it does
 
 MediTrack supports three distinct user roles, each with a purpose-built dashboard:
 
-- **Patient** — views medication schedule, logs doses, sees adherence history
-- **Caregiver** — monitors one or more patients, receives adherence alerts, reviews trends
-- **Doctor** — reviews patient compliance data to inform clinical decisions
+- **Patient** - views medication schedule, logs doses, sees adherence history
+- **Caregiver** - monitors one or more patients, receives adherence alerts, reviews trends
+- **Doctor** - reviews patient compliance data to inform clinical decisions
 
 Dose events are captured at the hardware level using an ESP8266 microcontroller connected to a magnetic reed switch (pill box open/close detection) and a load cell with HX711 amplifier (weight-based pill count verification), and streamed to a Flask backend for processing and storage.
 
@@ -41,7 +41,7 @@ Dose events are captured at the hardware level using an ESP8266 microcontroller 
 - Python 3.x
 - PostgreSQL
 - Node/Flutter SDK (for mobile app)
-- ESP8266-compatible hardware (optional — required only for live sensor data; the platform runs standalone against seeded/demo data otherwise)
+- ESP8266-compatible hardware  (required only for live sensor data; the platform runs standalone against seeded/demo data otherwise)
 
 ### Backend setup
 ```bash
@@ -68,9 +68,6 @@ The project includes seeded demo accounts for each role so the platform can be e
 
 ## What I'd build next
 
-- Full reed switch / load cell sensor integration end-to-end
-- Push notifications for missed doses
-- Doctor-facing analytics and scenario tooling
 - Automated testing across the Flask API and dashboards
 
 ## Author
