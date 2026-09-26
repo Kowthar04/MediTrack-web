@@ -1,6 +1,6 @@
 # MediTrack — Smart Medication Management System
 
-A full-stack, multi-role platform for medication adherence monitoring, combining IoT hardware sensing with a web dashboard and companion mobile app. Built as a final-year Computer Science dissertation project.
+A full-stack, multi-role platform for medication adherence monitoring, combining IoT hardware sensing with a web dashboard and companion mobile app. 
 
 ## Why this project
 
